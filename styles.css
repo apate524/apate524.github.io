@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
+}
+
+li {
+  list-style: none;
+}
+
+.heading {
+  background: radial-gradient(ellipse at right top, #ffcccc 0%, #f5d6d6 20%, #ffffff 100%);
+  padding: 7.5rem 22.5rem 5rem 22.5rem;
+  font-size: 1.75rem;
+}
+
+.heading-content > h1 {
+  padding-bottom: 3rem;
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 5rem;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.heading-content > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  background: radial-gradient(ellipse at right top, #fbe1ff 0%, #fc83ea 70%, #c115f1 100%);
+  padding: 10rem 0rem;
+  font-size: 1.75rem;
+}
+
+.intro-content {
+  margin: 0 auto;
+  background: rgba(255,255,255,0.7);
+  height: 100%;
+  width: 60%;
+  padding: 3.5rem;
+  border-radius: 15px;
+}
+
+.intro-content > h3 {
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 1rem;
+}
+
+.intro-content > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills-jobs {
+  background: radial-gradient(ellipse at left bottom, #ffaf8a 0%, #f5d6d6 50%, #ffffff 100%);
+  padding: 7.5rem 0rem;
+  font-size: 1.75rem;
+}
+
+.skills-jobs-content {
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.6);
+  border-radius: 15px;
+}
+
+.skills-jobs-content > h3 {
+  text-align: center;
+  padding-top: 2rem;
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.75rem;
+
+}
+
+.skills-jobs-content > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills-jobs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-jobs-section {
+  padding: 2rem 5rem;
+}
+
+.skills-jobs-section > h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-jobs-list {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: 1rem;
+}
+
+.future-of-ai {
+  background: radial-gradient(ellipse at left top, #e7d1b7 0%, #efb879 70%, #f19641 100%);
+  padding: 10rem 3rem;
+  font-size: 1.75rem;
+}
+
+.future-content {
+  margin: 0 auto;
+  height: 100%;
+  width: 70%;
+  border-radius: 15px;
+  display: flex;
+  padding-left: 3rem;
+}
+
+.future-section-1 {
+  width: 50%;
+}
+
+.future-section-1 > h3 {
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 4rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.future-section-1 > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.future-section-2 {
+  padding-left: 5rem;
+}
+
+.future-section-2 > img {
+  width: 75%;
+  border-radius: 20px;
+}
+
+.preparations {
+  background: radial-gradient(ellipse at left top, #f6ebe6 0%, #f5d6d6 50%, #ffffff 100%);
+  padding: 5rem 0rem;
+  font-size: 1.75rem;
+}
+
+.prep-content {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.prep-content > h3 {
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.75rem;
+
+}
+
+.prep-content > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.prep-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.prep-section {
+  padding: 2rem 2rem;
+}
+
+.prep-section > h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.prep-section > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.conclusion {
+  background: radial-gradient(ellipse at right top, #e8e8e8 0%, #f5cef2 40%, #fabce4 100%);
+  padding: 7.5rem 22.5rem 5rem 22.5rem;
+  font-size: 1.75rem;
+}
+
+.conclusion-content > h3 {
+  padding-bottom: 3rem;
+  background: linear-gradient(90deg, #f98bb5, #dd44f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+}
+
+.conclusion-content > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
